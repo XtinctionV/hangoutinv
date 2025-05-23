@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Do You Wanna Hang Out Today?</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0fff0;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #555;
+    }
+
+    .emoji {
+      font-size: 4em;
+    }
+
+    .buttons {
+      margin-top: 40px;
+    }
+
+    button {
+      font-size: 1.5em;
+      padding: 20px 40px;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      color: white;
+      transition: transform 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    .green-button {
+      background-color: green;
+    }
+
+    .red-button {
+      background-color: red;
+    }
+
+    .joke {
+      margin-top: 50px;
+      font-style: italic;
+      color: #888;
+    }
+
+    .matcha {
+      margin-top: 30px;
+      max-width: 300px;
+      width: 80%;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    form {
+      display: inline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="emoji">🥺</div>
+  <h1>Do You Wanna Hang Out Today?</h1>
+  <p>I've been craving some skewers :D</p>
+
+  <div class="buttons">
+    <form action="https://formspree.io/f/mjkwdadn" method="POST">
+      <input type="hidden" name="response" value="YES ✅">
+      <button class="green-button" type="submit">✅ YES</button>
+    </form>
+
+    <form action="https://formspree.io/f/mjkwdadn" method="POST">
+      <input type="hidden" name="response" value="YES but in red 😅">
+      <button class="red-button" type="submit">😅 YES, but in red</button>
+    </form>
+  </div>
+
+  <img class="matcha" src="https://cdn.loveandlemons.com/wp-content/uploads/2023/06/iced-matcha-latte.jpg" alt="Matcha Latte">
+
+  <div class="joke">
+    <p>“I got a new drink and chips and I wanna see you try them hehe”<br />
+    Its yummy i think.</p>
+  </div>
+
+</body>
+</html>
